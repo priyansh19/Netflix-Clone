@@ -1,0 +1,40 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  height: 30px;
+  z-index: 1;
+  transition-timing-function: ease-in; /* this is for the animations */
+  transition: all 0.5s;
+}
+
+.nav > h1 {
+  color: red;
+  font-weight: 700;
+  font-size: xx-large;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.nav__avatar {
+  position: fixed;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.nav__black {
+  background-color: #000;
+  height: 4.5rem;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
